@@ -1,0 +1,133 @@
+
+html { 
+	background: url(../img/background.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	}
+a { 
+	color: #FFF; 
+	text-decoration: none; 
+}
+a:hover { 
+	color: red; 
+	border-bottom: dotted 1px #9fa1a0 !important;
+	border-bottom: solid 1px #585d5d;
+}
+#wrap{
+	width: 810px;
+	margin: 0px auto 0px auto;
+	min-height: 200px;;
+}
+#sidebar {
+	position: fixed;
+	margin-left: 590px;
+	padding-right: 10px;
+	height: auto;
+	width:210px;
+	text-align: right;
+	background:transparent url(../img/bg-header.png) 0 0 repeat; 
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+#map_canvas{ 
+	width:180px; 
+	height:180px; 
+	float:right; 
+	margin-top:10px; 
+	-moz-border-radius: 5px; 
+	border-radius: 5px; 
+	border:solid 1px; 
+	border-color:#dddcdc;
+}
+#picture_canvas{ 
+	width:180px; 
+	height:240px; 
+	float:right; 
+	margin-top:10px; 
+	-moz-border-radius: 5px; 
+	border-radius: 5px; 
+	border:solid 1px; 
+	border-color:#dddcdc;
+}
+#header { 
+	position: fixed; 
+	top: 0px;
+	padding-left: 50px;
+	padding-right: 10px;
+	background:transparent url(../img/bg-header.png) 0 0 repeat; 
+	width: 750px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	}
+
+#header h1 {
+	float:left;
+	text-shadow: #dddcdc 1px 1px 1px;
+	color: white;
+	text-decoration: none;
+	}
+#header a{
+	float: right;
+	border-bottom: dotted 1px #494c4c !important;
+	border-bottom: solid 1px #393d3d;
+	margin-top:70px;
+}
+#footer {
+	position: fixed;
+	bottom: 0px;
+	width:750px;
+	height:20px;
+	padding-left: 50px;
+	padding-right: 10px;
+	background:transparent url(../img/bg-header.png) 0 0 repeat;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	}
+
+#footer div { 
+	width:710px;
+	margin:auto;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	}
+	
+#footer pre { 			
+	font-size:.95em;			
+	margin: auto;
+	color: white;
+	float: left;
+	}
+		
+#footer a  {
+	float: right;
+	border-bottom: dotted 1px #494c4c !important;
+	border-bottom: solid 1px #393d3d;
+	}
+	
+#content{	
+	margin:100px 0 30px;
+	width:530px;
+	padding: 10px 0 0 50px;
+	min-height: 300px;
+	color: #FFF;
+	background:transparent url(../img/bg-header.png) 0 0 repeat; 
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#content h2 {
+	color: red;
+}
+
+#content p {
+	padding: 20px;
+	width:440px;
+	text-align: justify;
+}

@@ -1,0 +1,10 @@
+$(document).ready(function(){
+				$(".login").hide();
+				$(".menu").hide();
+				$("#login").click(function(){
+					$(".login").toggle("slow");
+			  });
+			  $("#menu").click(function(){
+					$(".menu").toggle("slow");
+			  });
+			});
